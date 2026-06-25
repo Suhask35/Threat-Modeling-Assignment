@@ -19,6 +19,42 @@
         "cells": [
           {
             "position": {
+              "x": 319.9999999999998,
+              "y": -99.9999999999956
+            },
+            "size": {
+              "width": 1240,
+              "height": 150
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "e529271b-4904-4b2b-aa5e-1acecee97e68",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "79277431-82ed-4f02-972c-a7da198e930d",
+                "d2001928-4998-4e42-813a-d99ab2ded212",
+                "ec406513-1521-40de-85c3-0f60b436ec7d",
+                "41872dbb-ce0d-4843-b75b-5e1565dd5789",
+                "5a85c097-82f6-41aa-92d4-41c1ddefc353",
+                "d281e1f9-0647-4adc-89c1-549134a2ad3e",
+                "ed285b81-96b5-4e12-80f4-e081dc57e777",
+                "035814b7-e3cb-4925-9c33-69561233a2de"
+              ],
+              "containedElements": [
+                "4ea32af2-0796-422c-a712-19926d8c14f9",
+                "4ef88afb-1323-436f-a557-731385db26ec",
+                "55b72dbc-bddb-47cc-a427-99c2e0c590a8"
+              ]
+            }
+          },
+          {
+            "position": {
               "x": 170,
               "y": -250
             },
@@ -529,7 +565,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "e529271b-4904-4b2b-aa5e-1acecee97e68"
+              ]
             },
             "labels": [
               "Login Request"
@@ -585,7 +623,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "e529271b-4904-4b2b-aa5e-1acecee97e68"
+              ]
             },
             "labels": [
               "Sen Login Information"
@@ -631,7 +671,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "e529271b-4904-4b2b-aa5e-1acecee97e68"
+              ]
             },
             "labels": [
               "Check Username and Password"
@@ -677,7 +719,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "e529271b-4904-4b2b-aa5e-1acecee97e68"
+              ]
             },
             "labels": [
               "Login Result"
@@ -729,7 +773,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "e529271b-4904-4b2b-aa5e-1acecee97e68"
+              ]
             },
             "labels": [
               "Get Message of the Day"
@@ -781,7 +827,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "e529271b-4904-4b2b-aa5e-1acecee97e68"
+              ]
             },
             "labels": [
               "Manage of the Day"
@@ -845,7 +893,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "e529271b-4904-4b2b-aa5e-1acecee97e68"
+              ]
             },
             "labels": [
               "Submit Comment"
@@ -897,7 +947,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "e529271b-4904-4b2b-aa5e-1acecee97e68"
+              ]
             },
             "labels": [
               "Save Comment"
