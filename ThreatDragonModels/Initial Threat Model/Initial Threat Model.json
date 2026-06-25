@@ -1,0 +1,27 @@
+{
+  "version": "2.6.2",
+  "summary": {
+    "title": "Initial Threat Model",
+    "owner": "Suhask35",
+    "description": "This threat model is about a simple web application. The user first sees a login page and enters a username and password. The web application sends this login information to an open source authentication component. This component checks the username and password with the database.\nIf the login information is correct, the application gets the message-of-the-day from the database and shows it to the user. After that, the user can write a comment about the message. The comment goes back to the application and is saved in the database.\nIn my diagram, I will include the user's web browser, the web application, the open source authentication component, and the database. I will also show the main data flows, such as the login request, getting the message-of-the-day, and sending a comment. I will add a trust boundary to show where data moves from the user side to the application and database side.\n\n\n\n",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "Initial Threat Model Diagram",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.6.2",
+        "cells": [],
+        "description": "This diagram shows the login request, message-of-the-day flow, comment flow, and database connection in the simple web application"
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "Instructor",
+    "threatTop": 0
+  }
+}
