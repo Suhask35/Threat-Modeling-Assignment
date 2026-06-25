@@ -68,8 +68,8 @@
                 "text": "User`s Web Browser"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -166,15 +166,33 @@
               "isTrustBoundary": false,
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "providesAuthentication": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "f9662c44-2e6a-4fd4-93c3-1895844a6139",
+                  "title": "No Proof for User Actions",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Repudiation",
+                  "description": "A user may deny submitting a comment or making a login attempt if the system does not keep clear logs. This can make it hard to investigate problems or prove what happened in the application.",
+                  "mitigation": "Open for this assignment. A possible mitigation is to keep secure audit logs for login attempts and comment submissions.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 4,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 0,
+                "repudiation": 1
+              }
             }
           },
           {
             "position": {
-              "x": 320,
-              "y": -75
+              "x": 319.9999999999998,
+              "y": -79.9999999999956
             },
             "size": {
               "width": 150,
@@ -301,14 +319,40 @@
                   "new": false,
                   "number": 2,
                   "score": ""
+                },
+                {
+                  "id": "ba487249-31d5-40e2-b5d7-51b3a4d2c474",
+                  "title": "Comment Data Tampering",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Tampering",
+                  "description": "An attacker may change the comment data before it is saved in the database. This can affect the correctness of the comments and the data stored in the system.",
+                  "mitigation": "Open for this assignment. A possible mitigation is to validate and sanitize user input before saving comments to the database.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 3,
+                  "score": ""
+                },
+                {
+                  "id": "31a42dd0-f14f-4476-ba60-bf17689e8b2e",
+                  "title": "Too Many Requests",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Denial of service",
+                  "description": "An attacker may send too many login or comment requests to the web application. This can slow down the application or make it unavailable for normal users.",
+                  "mitigation": "Open for this assignment. A possible mitigation is to use rate limiting, request limits, and basic monitoring.  ",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 5,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
                 "spoofing": 1,
-                "tampering": 0,
+                "tampering": 1,
                 "repudiation": 0,
                 "informationDisclosure": 0,
-                "denialOfService": 0,
+                "denialOfService": 1,
                 "elevationOfPrivilege": 0
               }
             }
@@ -1108,6 +1152,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "Instructor",
-    "threatTop": 2
+    "threatTop": 5
   }
 }
