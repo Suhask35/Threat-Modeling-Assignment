@@ -136,8 +136,8 @@
           },
           {
             "position": {
-              "x": 360,
-              "y": -59.99999999999994
+              "x": 320,
+              "y": -75
             },
             "size": {
               "width": 150,
@@ -256,7 +256,7 @@
           },
           {
             "position": {
-              "x": 850,
+              "x": 830,
               "y": -80
             },
             "size": {
@@ -376,8 +376,8 @@
           },
           {
             "position": {
-              "x": 1418,
-              "y": -50
+              "x": 1410,
+              "y": -59.99999999999994
             },
             "size": {
               "width": 120,
@@ -592,7 +592,7 @@
             ],
             "id": "d2001928-4998-4e42-813a-d99ab2ded212",
             "source": {
-              "x": 490,
+              "x": 460,
               "y": -20
             },
             "target": {
@@ -645,6 +645,110 @@
               "cell": "55b72dbc-bddb-47cc-a427-99c2e0c590a8",
               "port": "38f64f27-e35a-4358-88df-b7376133f151"
             }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Login Result",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Login Result"
+            ],
+            "id": "41872dbb-ce0d-4843-b75b-5e1565dd5789",
+            "source": {
+              "x": 1458,
+              "y": -60
+            },
+            "target": {
+              "cell": "4ef88afb-1323-436f-a557-731385db26ec",
+              "port": "7d2a788a-bbfe-4381-a07b-166ff6f9d454"
+            },
+            "vertices": [
+              {
+                "x": 1340,
+                "y": -220
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Get Message of the Day",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Get Message of the Day"
+            ],
+            "id": "5a85c097-82f6-41aa-92d4-41c1ddefc353",
+            "source": {
+              "x": 402,
+              "y": 35
+            },
+            "target": {
+              "cell": "55b72dbc-bddb-47cc-a427-99c2e0c590a8",
+              "port": "8c83bf58-f984-48bc-b5ae-3a1d8de105fd"
+            },
+            "vertices": [
+              {
+                "x": 960,
+                "y": 130
+              }
+            ]
           }
         ],
         "description": "This diagram shows the login request, message-of-the-day flow, comment flow, and database connection in the simple web application"
